@@ -16,6 +16,9 @@
 .color-text{
     color: white;
 }
+.riga{
+    text-decoration: line-through;
+}
 main>.flex{
     flex-wrap: wrap;
 }    
