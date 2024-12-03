@@ -21,15 +21,16 @@
 }
 main>.flex{
     flex-wrap: wrap;
-    margin-block: 3%;
-    
+    gap: 30px;
+    width: 80%;
+    margin: 30px auto 0;
 }    
 
 
 main > .flex > div{
     justify-content: center;
-    width: calc(100% / 3);
-    
+    width: calc((100%  - 60px) / 3);
+    position: relative;    
 }
 .price-red{
     color: red;
@@ -44,12 +45,39 @@ main > .flex > div:hover .photo-visible{
     display: none;
 }
 .contenitor{
-    position: absolute;
-    right: 0;
-}
-.heart{
-    width:50px;
-}
-main{
     position: relative;
 }
+.heart{
+    width:30px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    background-color: white;
+}
+.red-button{
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    bottom: 70px;
+    border: none;
+
+}
+.green-button{
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+    bottom: 70px;
+    left: 65px;
+    border: none;
+}
+.green-button2{
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+    bottom: 70px;
+    border: none;
+}
+
