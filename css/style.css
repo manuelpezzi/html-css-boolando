@@ -12,9 +12,11 @@
 .logo-b{
     height: 20px;
     justify-content: center;
+    margin-top: 20px;
 }
 .color-text{
     color: white;
+    margin-top: 20px;
 }
 .riga{
     text-decoration: line-through;
@@ -79,5 +81,20 @@ main > .flex > div:hover .photo-visible{
     padding: 5px 5px;
     bottom: 70px;
     border: none;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    margin-top: 20px;
+}
+.fotter-font{
+    color: white;
+    padding: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    gap: 5px;
 }
 
