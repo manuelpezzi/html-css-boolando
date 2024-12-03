@@ -21,7 +21,10 @@
 }
 main>.flex{
     flex-wrap: wrap;
+    margin-block: 3%;
+    
 }    
+
 
 main > .flex > div{
     justify-content: center;
@@ -39,4 +42,14 @@ main > .flex > div:hover .photo-ghost{
 }
 main > .flex > div:hover .photo-visible{
     display: none;
+}
+.contenitor{
+    position: absolute;
+    right: 0;
+}
+.heart{
+    width:50px;
+}
+main{
+    position: relative;
 }
