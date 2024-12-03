@@ -6,48 +6,34 @@
     background-color: orangered;
     height: 50px;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 .logo-b{
     height: 20px;
     justify-content: center;
-   
 }
-.man1{
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
+.color-text{
+    color: white;
 }
-.women1{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-}
-.women2{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-}
-.women3{
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
-}
-.man2{
-    height: 100px;
-    width: 100px;
-    background-color: green;
-}
-.women4{
-    height: 100px;
-    width: 100px;
-    background-color: black;
-}
-.women5{
-    height: 100px;
-    width: 100px;
-    background-color: violet;
-}
-main>div{
+main>.flex{
+    flex-wrap: wrap;
+}    
+
+main > .flex > div{
     justify-content: center;
+    width: calc(100% / 3);
     
+}
+.price-red{
+    color: red;
+}
+.photo-ghost{
+    display: none;
+}
+main > .flex > div:hover .photo-ghost{
+    display: block;
+}
+main > .flex > div:hover .photo-visible{
+    display: none;
 }
