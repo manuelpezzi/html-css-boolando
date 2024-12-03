@@ -14,9 +14,12 @@
     justify-content: center;
     margin-top: 20px;
 }
+.text-left{
+    margin-top: 20px;
+}
 .color-text{
     color: white;
-    margin-top: 20px;
+    
 }
 .riga{
     text-decoration: line-through;
@@ -90,6 +93,7 @@ footer{
 .fotter-font{
     color: white;
     padding: 20px;
+    position: relative;
 }
 .icon{
     width: 50px;
@@ -97,4 +101,36 @@ footer{
     display: flex;
     gap: 5px;
 }
-
+.span-absolute{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+.Logo_of_Twitter{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 200px;
+    top: 40px;
+}
+.Facebook_logo_{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 170px;
+    top: 40px;
+}
+.Instagram_icon{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 140px;
+    top: 40px;
+}
+.Youtube_logo{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 110px;
+    top: 40px;
+}
