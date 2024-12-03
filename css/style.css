@@ -1,1 +1,53 @@
+ .flex{
+    display: flex;
+ }
 
+.orange-nav{
+    background-color: orangered;
+    height: 50px;
+    width: 100%;
+}
+.logo-b{
+    height: 20px;
+    justify-content: center;
+   
+}
+.man1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.women1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.women2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.women3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.man2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.women4{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.women5{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+}
+main>div{
+    justify-content: center;
+    
+}
