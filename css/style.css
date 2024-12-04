@@ -8,6 +8,8 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    position: sticky;
+    top: 0; 
 }
 .logo-b{
     height: 20px;
